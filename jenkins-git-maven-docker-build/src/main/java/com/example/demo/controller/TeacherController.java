@@ -18,6 +18,7 @@ public class TeacherController {
 	public String getTeachers() {
 		
 		List<String> list =Arrays.asList("kanic","selva");
+		System.out.println("kanic");
 		return list.toString();
 	}
 	
